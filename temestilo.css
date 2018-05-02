@@ -1,0 +1,50 @@
+body{
+	background-color: grey;
+    background-repeat: no-repeat;
+	background-position: ;
+}
+h1{
+    font-size: 35px;
+	color: white;
+}
+
+p{
+  
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: Helvetica;
+  margin: 0 auto;
+  width: 735px;
+
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
